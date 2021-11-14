@@ -29,7 +29,7 @@
 
 // include Web server - we'll need it to handle oscilloscope WS requests
 // #include "webServer.hpp"
-#include"esp32_web_ftp_telnet_server_template.h"
+#include "esp32_web_ftp_telnet_server_template.h"
 httpServer *webSrv;
 
 // oscilloscope

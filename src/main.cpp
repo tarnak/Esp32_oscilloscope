@@ -1,9 +1,12 @@
 #include <Arduino.h>
+#include "oscilloscope/Esp32_oscilloscope.h"
 
-void setup() {
-  // put your setup code here, to run once:
+void setup()
+{
+  setupOscilloscope();
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void loop()
+{
+  loopOscilloscope();
 }
