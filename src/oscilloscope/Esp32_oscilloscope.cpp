@@ -21,14 +21,15 @@
 #define MACHINETYPE "ESP32 NodeMCU" // describe your hardware here
 
 #include "passwords_private.h"
-#include "network.h"
+// #include "network.h"
 
 // simplify the use of FTP server in this project by avoiding user management - anyone is alowed to use it
-#define USER_MANAGEMENT NO_USER_MANAGEMENT
-#include "user_management.h"
+// #define USER_MANAGEMENT NO_USER_MANAGEMENT
+// #include "user_management.h"
 
 // include Web server - we'll need it to handle oscilloscope WS requests
-#include "webServer.hpp"
+// #include "webServer.hpp"
+#include"esp32_web_ftp_telnet_server_template.h"
 httpServer *webSrv;
 
 // oscilloscope

@@ -15,8 +15,8 @@
 // ----- includes, definitions and supporting functions -----
 
 #include <WiFi.h>
-#include "webServer.hpp"    // oscilloscope uses websockets defined in webServer.hpp  
-
+// #include "webServer.hpp"    // oscilloscope uses websockets defined in webServer.hpp  
+#include "esp32_web_ftp_telnet_server_template.h"
 #include "esp_task_wdt.h"
 
 struct oscSample {                    // one sample
